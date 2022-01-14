@@ -1,7 +1,3 @@
-# Write a function that calculates and returns the monthly payments for a loan. 
-# This function accepts three parameters in the exact order (principal, annual_interest_rate, duration):
-
-
 def calc_monthly_payment(principal, annual_interest_rate, duration):
     p = float(principal)
     r = float((annual_interest_rate / 100) / 12)
